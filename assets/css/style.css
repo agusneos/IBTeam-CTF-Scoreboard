@@ -1,0 +1,122 @@
+/*
+Indonesian Backtrack Team (http://indonesianbacktrackteam.or.id)
+Copyright 2014-2015 Indonesian Backtrack Team. Licensed Under MIT (https://github.com/abdilahrf/)
+Credits : abdilahrf,kresna,inoot,baloons
+*/
+
+
+/* Global */
+body {
+    background: #eee;
+}
+
+
+/* NAVBAR */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+.navbar-wrapper .navbar {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+.navbar-nav.navbar-right:last-child {
+margin-right: 15px;
+}
+
+
+.dropdown-menu {
+padding: 0px;
+overflow: hidden;
+}
+
+.navbar .nav li {
+    padding: 0 5px;
+    font-size: 18px;   
+}
+
+.navbar .nav li:hover{
+    background: #000;
+}
+
+.navbar .navbar-right li{
+    font-size: 14px;
+}
+.open {
+ padding:0 5px;   
+ background: #000;
+}
+
+.dropdown-menu>li>a{
+ padding: 7px 20px;   
+}
+
+/* MAIN */
+
+.main{
+padding-top: 50px; 
+position: relative;
+}
+
+.content{
+    display: inline-block;
+    
+}
+
+.score{
+display: inline-block;
+    
+}
+
+/** Score **/
+
+.filterable {
+    margin-top: 15px;
+}
+.filterable .panel-heading .pull-right {
+    margin-top: -20px;
+}
+.filterable .filters input[disabled] {
+    background-color: transparent;
+    border: none;
+    cursor: auto;
+    box-shadow: none;
+    padding: 0;
+    height: auto;
+}
+.filterable .filters input[disabled]::-webkit-input-placeholder {
+    color: #333;
+}
+.filterable .filters input[disabled]::-moz-placeholder {
+    color: #333;
+}
+.filterable .filters input[disabled]:-ms-input-placeholder {
+    color: #333;
+}
+
+
+@media(max-width:767px){
+.navbar-inverse .navbar-nav>li>a {
+text-align: center;
+}
+
+    .navbar-nav.navbar-right:last-child {
+ margin: 0px -15px;
+}
+    .dropdown-menu>li>a{
+        text-align: center;
+    }
+}

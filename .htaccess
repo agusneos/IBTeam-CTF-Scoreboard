@@ -1,0 +1,24 @@
+#Prevent viewing of .htaccess file
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+#prevent directory listing
+Options -Indexes
+IndexIgnore *
+
+
+# Sedangkan untuk Rewrite URL secara auto (dinamis)
+RewriteEngine On
+RewriteRule ^user/([a-zA-Z0-9_-]+)$ profile.php?username=$1
+RewriteRule ^user/([a-zA-Z0-9_-]+)/$ profile.php?username=$1
+
+RewriteRule ^missions/([a-zA-Z0-9_-]+)$ mission-detail.php?id=$1
+RewriteRule ^missions/([a-zA-Z0-9_-]+)/$ mission-detail.php?id=$1
+
+#Prevent Hotlinking
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^$
+#RewriteCond %{HTTP_REFERER} !^http://(www\.)?mydomain.com/.*$ [NC]
+#RewriteRule \.(bmp|ico|png|jpeg|css|js|gif|jpg)$ http://www.mydomain.com/angryman.gif [R,L]
