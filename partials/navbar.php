@@ -1,6 +1,6 @@
 <?php 
 session_start();
-    $file = "M4huNg4p41NL03IniCum4J4g4-jaG4Do44Ngss-k0k.txt";
+    $file = "log.txt";
     $ip = $_SERVER['REMOTE_ADDR'];
     $bs = $_SERVER['HTTP_USER_AGENT'];
     date_default_timezone_set('Asia/Jakarta');

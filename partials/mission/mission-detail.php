@@ -123,7 +123,7 @@ $calc = mysql_num_rows($query);
                 while($fetching = mysql_fetch_array($qryt)){
                $nama = $fetching['username'];
                     echo "<tr>";
-                    echo "<td> <a class='label label-success' href='profile.php?username=".$nama."'>".$nama."</a></td>";
+                    echo "<td> <a class='label label-success' href='".$url."user/".$nama."'>".$nama."</a></td>";
                     echo "<td><span class='label label-default'>".$fetching['submited']."</span></td>";
                     echo "</tr>";
                     }}  ?>

@@ -1,5 +1,5 @@
 <?php 
-$url = "http://localhost/IBTEAM-CTF/";
+$url = "http://localhost/IBTEAM-CTF-Scoreboard/";
 function filter($data) {
     $data = htmlspecialchars(trim(htmlentities(strip_tags($data))));
 

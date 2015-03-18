@@ -1,5 +1,9 @@
-<?php include "config/config.php"; ?> 
-<head>
+      <?php include "../config/config.php"; ?>
+      
+      <?php if(empty($_SESSION['admin'])){
+		header('location:../error.php?q=404');
+		} ?>
+   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -42,3 +46,4 @@
     <![endif]-->
     
     </head>
+    

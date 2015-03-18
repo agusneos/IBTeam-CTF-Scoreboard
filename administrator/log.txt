@@ -1,0 +1,27 @@
+IP Address: ::1
+Browser: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
+Waktu: Wednesday 18th of March 2015 08:24:59 PM
+IP Address: ::1
+Browser: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
+Waktu: Wednesday 18th of March 2015 08:25:21 PM
+IP Address: ::1
+Browser: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
+Waktu: Wednesday 18th of March 2015 08:26:37 PM
+IP Address: ::1
+Browser: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
+Waktu: Wednesday 18th of March 2015 08:26:54 PM
+IP Address: ::1
+Browser: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
+Waktu: Wednesday 18th of March 2015 08:28:26 PM
+IP Address: ::1
+Browser: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
+Waktu: Wednesday 18th of March 2015 08:28:46 PM
+IP Address: ::1
+Browser: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
+Waktu: Wednesday 18th of March 2015 08:29:45 PM
+IP Address: ::1
+Browser: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
+Waktu: Wednesday 18th of March 2015 08:29:49 PM
+IP Address: ::1
+Browser: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
+Waktu: Wednesday 18th of March 2015 08:32:02 PM

@@ -1,3 +1,30 @@
+
+Order Deny,Allow
+Deny from 118.137.60.97
+Deny from 36.73.26.166
+Deny from 202.67.43.47
+Deny from 182.14.78.239
+Deny from 36.80.196.57
+Deny from 36.84.138.31
+Deny from 103.226.174.10
+Deny from 114.121.129.218
+Deny from 39.224.87.17
+Deny from 114.79.47.10
+
+
+# redirect errors
+ErrorDocument 400 /error.php?q=400
+ErrorDocument 401 /error.php?q=401
+ErrorDocument 403 /error.php?q=403
+ErrorDocument 404 /error.php?q=404
+ErrorDocument 405 /error.php?q=405
+ErrorDocument 408 /error.php?q=408
+ErrorDocument 414 /error.php?q=414
+ErrorDocument 500 /error.php?q=500
+ErrorDocument 502 /error.php?q=502
+ErrorDocument 504 /error.php?q=504
+
+
 #Prevent viewing of .htaccess file
 <Files .htaccess>
 order allow,deny
@@ -6,13 +33,13 @@ deny from all
 
 #prevent directory listing
 Options -Indexes
-IndexIgnore *
+IndexIgnore *.php
 
 
 # Sedangkan untuk Rewrite URL secara auto (dinamis)
 RewriteEngine On
-RewriteRule ^user/([a-zA-Z0-9_-]+)$ profile.php?username=$1
-RewriteRule ^user/([a-zA-Z0-9_-]+)/$ profile.php?username=$1
+RewriteRule ^user/(.*)$ profile.php?username=$1
+RewriteRule ^user/(.*)/$ profile.php?username=$1
 
 RewriteRule ^missions/([a-zA-Z0-9_-]+)$ mission-detail.php?id=$1
 RewriteRule ^missions/([a-zA-Z0-9_-]+)/$ mission-detail.php?id=$1
